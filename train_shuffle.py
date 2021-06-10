@@ -112,8 +112,8 @@ print(label_batches_1.shape)
 # down sample data in the first run:
 # data_batches, label_batches =
 
-#print("begin to downsample")
-#sample_x.sample_x_distance(data_batches_1, label_batches_1, 1, MAX_NUM_POINT)
+print("begin to downsample")
+sample_x.sample_x_distance(data_batches_1, label_batches_1, 1, MAX_NUM_POINT)
 data_batches = np.load(file="sample_train_data_total.npy", allow_pickle=True)
 label_batches = np.load(file="sample_train_label_total.npy", allow_pickle=True)
 print(data_batches.shape)
